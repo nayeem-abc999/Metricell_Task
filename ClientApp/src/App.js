@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './styles.css';
 
 export default function App() {
   const [employees, setEmployees] = useState([]);
@@ -60,7 +61,7 @@ export default function App() {
           <input type="number" name="value" />
         </label>
         <br />
-        <button type="submit">Create Employee</button>
+        <button type="submit">Add Employee</button>
       </form>
       <hr />
       <form
